@@ -14,20 +14,27 @@ from app.models.schemas import HealthResponse
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # ── Startup ──────────────────────────────────
     settings = get_settings()
     logger.info("Starting ClinicalMind API...")
 
-    await init_db()
+    # Try DB init but don't crash if it fails locally
+    try:
+        await init_db()
+    except Exception as e:
+        logger.warning(f"DB init skipped (no local PostgreSQL): {e}")
 
-    vectorstore = load_faiss_index(settings.faiss_index_path)
-    retriever = FAISSRetriever(vectorstore)
-    app.state.crew = ClinicalMindCrew(retriever)
+    # FAISS index load
+    try:
+        vectorstore = load_faiss_index(settings.faiss_index_path)
+        retriever = FAISSRetriever(vectorstore)
+        app.state.crew = ClinicalMindCrew(retriever)
+        logger.info("FAISS index loaded. Crew initialized. API ready.")
+    except Exception as e:
+        logger.warning(f"FAISS index not found yet: {e}")
+        app.state.crew = None
 
-    logger.info("FAISS index loaded. Crew initialized. API ready.")
     yield
 
-    # ── Shutdown ─────────────────────────────────
     logger.info("ClinicalMind API shutting down")
 
 
