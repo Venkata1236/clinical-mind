@@ -1,0 +1,24 @@
+Trial ID: NCT002
+Title: Semaglutide vs Placebo in Obese Type 2 Diabetes Patients
+Condition: Type 2 Diabetes Mellitus with Obesity
+Phase: III
+Sponsor: AIIMS Diabetes Research Centre
+Duration: 68 weeks
+Location: Delhi, India
+
+Inclusion Criteria:
+- Age between 18 and 70 years
+- Type 2 Diabetes diagnosis confirmed by physician
+- HbA1c between 8.0% and 12.0%
+- BMI >= 30 kg/m2
+- eGFR >= 30 mL/min/1.73m2
+- ECOG performance status 0, 1, or 2
+- On stable antidiabetic therapy for at least 3 months
+
+Exclusion Criteria:
+- Personal or family history of medullary thyroid carcinoma
+- Multiple Endocrine Neoplasia syndrome type 2
+- Prior use of GLP-1 receptor agonists within 6 months
+- Severe gastrointestinal disease
+- Recent cardiovascular event within 3 months
+- Current insulin pump therapy

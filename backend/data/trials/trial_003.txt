@@ -1,0 +1,24 @@
+Trial ID: NCT003
+Title: Metformin Plus Lifestyle Intervention in Pre-diabetes
+Condition: Pre-diabetes / Impaired Glucose Tolerance
+Phase: II
+Sponsor: Tata Memorial Hospital
+Duration: 24 weeks
+Location: Mumbai, India
+
+Inclusion Criteria:
+- Age between 25 and 65 years
+- Fasting glucose between 100 and 125 mg/dL
+- HbA1c between 5.7% and 6.4%
+- eGFR >= 60 mL/min/1.73m2
+- ECOG performance status 0
+- No current antidiabetic medication
+- Willing to participate in lifestyle intervention program
+
+Exclusion Criteria:
+- Established Type 2 Diabetes diagnosis
+- Current use of any antidiabetic medication
+- Severe renal impairment (eGFR < 60)
+- Active liver disease
+- Recent major surgery within 6 months
+- Uncontrolled hypertension (BP > 180/110)

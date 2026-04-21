@@ -1,0 +1,24 @@
+Trial ID: NCT001
+Title: Empagliflozin in Type 2 Diabetes with Cardiovascular Risk
+Condition: Type 2 Diabetes Mellitus
+Phase: III
+Sponsor: Apollo Hospitals Research Division
+Duration: 52 weeks
+Location: Hyderabad, India
+
+Inclusion Criteria:
+- Age between 30 and 75 years
+- Diagnosed with Type 2 Diabetes Mellitus for at least 1 year
+- HbA1c between 7.5% and 10.5%
+- eGFR >= 45 mL/min/1.73m2
+- ECOG performance status 0 or 1
+- Currently on Metformin monotherapy or dual oral therapy
+
+Exclusion Criteria:
+- Type 1 Diabetes or LADA
+- Prior insulin therapy within last 3 months
+- eGFR < 45 mL/min/1.73m2
+- History of diabetic ketoacidosis
+- Severe hepatic impairment
+- Current use of SGLT2 inhibitors
+- Pregnancy or breastfeeding
